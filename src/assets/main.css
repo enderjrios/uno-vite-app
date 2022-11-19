@@ -1,0 +1,20 @@
+ .text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgba(15, 23, 42, var(--tw-text-opacity));
+}
+@media (prefers-color-scheme: dark) {
+  .text-gray-900 {
+    --tw-text-opacity: 1;
+    color: rgba(248, 250, 252, var(--tw-text-opacity));
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .dark\\:text-gray-100 {
+    --tw-text-opacity: 1;
+    color: rgba(241, 245, 249, var(--tw-text-opacity));
+  }
+} 
+
+html.dark{
+  color-scheme:dark;
+}
